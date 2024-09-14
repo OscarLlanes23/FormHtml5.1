@@ -9,80 +9,68 @@
 <body>
 
 <div class="container">
-
     <form action="">
-
-        <div class="row">
-
-            <div class="col">
-
-                <h3 class="title">Formulario de Pago</h3>
-
-                <div class="inputBox">
-                    <span>Nombre completo :</span>
-                    <input type="text" placeholder="Oscar Llanes">
-                </div>
-                <div class="inputBox">
-                    <span>email :</span>
-                    <input type="email" placeholder="ejemplo@ejemplo.com">
-                </div>
-                <div class="inputBox">
-                    <span>direccion :</span>
-                    <input type="text" placeholder="puerta - calle - localidad">
-                </div>
-                <div class="inputBox">
-                    <span>Ciudad :</span>
-                    <input type="text" placeholder="Paso de los Toros">
-                </div>
-
-                <div class="flex">
-                    <div class="inputBox">
-                        <span>Departamento :</span>
-                        <input type="text" placeholder="Tacuarenmbo">
-                    </div>
-                    <div class="inputBox">
-                        <span>Codigo Postal :</span>
-                        <input type="text" placeholder="45100">
-                    </div>
-                </div>
-
+            <div>
+                <h3 class="title">Payment form example</h3>
             </div>
+        <div class="col">
+            <div class="row">
 
-            <div class="col">
-
-                <h3 class="title">Pago</h3>
-
-                <div class="inputBox">
-                    <span>Tarjeta Crédito :</span>
-                    <img src="tarjetas.png" alt="">
+                <div class="inputBox" id="d1">
+                      <span>Card # </span>
+                      <input type="text" placeholder="XXXXXXXXXXXXXXX">
                 </div>
                 <div class="inputBox">
-                    <span>Titular :</span>
-                    <input type="text" placeholder="Oscar Llanes">
+                    <span>CVC#</span>
+                    <input type="email" placeholder="">
                 </div>
                 <div class="inputBox">
-                    <span>Numero de Tarjeta :</span>
-                    <input type="number" placeholder="1111-2222-3333-4444">
+                    <span>Amount <b>$</b></span>
+                    <input type="text" placeholder="">
                 </div>
-                <div class="inputBox">
-                    <span>Vencimiento Mes :</span>
-                    <input type="text" placeholder="Agosto">
-                </div>
+                
 
-                <div class="flex">
-                    <div class="inputBox">
-                        <span>Vencimiento Año</span>
-                        <input type="number" placeholder="2025">
-                    </div>
-                    <div class="inputBox">
-                        <span>CVV :</span>
-                        <input type="text" placeholder="1234">
-                    </div>
-                </div>
-
-            </div>
-    
+              
+            </div>   
+        
         </div>
+        <div class="col">
+            <div class="row" id="parte2">
+
+                <div class="inputBox2" >
+                      <span>First Name</span>
+                      <input type="text" placeholder="XXXXXXXXXXXXXXX">
+                </div>
+                <div class="inputBox2">
+                    <span>Last Name</span>
+                    <input type="email" placeholder="">
+                </div>
+                
+            </div>   
+        
+        </div>
+        <div class="col"></div>
+            <div class="row">
+
+                <div class="inputBox3">
+                      <span>City</span>
+                      <input type="text" placeholder="XXXXXXXXXXXXXXX">
+                </div>
+                <div class="inputBox3">
+                    <span>State</span>
+                    <input type="email" placeholder="">
+                </div>
+                <div class="inputBox3">
+                    <span>Postal Code</span>
+                    <input type="text" placeholder="">
+                </div>
+                
+
+              
+            </div>   
+        
+        </div>
+
 
         <input type="submit" value="PAGAR" class="submit-btn">
 
