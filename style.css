@@ -1,126 +1,26 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
 .container {
-display: flex;
-justify-content: center;
-background-color: azure;
-
-
-}
-
-h3 {
-    height: 30px;
-    background-color: #ccccccae;
-}
-
-
-form .row {
-    display: flex;
-    width: 100%;
-    gap: 15px;
+    
+        border: 2px solid #000; 
+        border-radius: 8px; 
+        padding: 20px; 
+        margin: 30px auto;
+        width: 70%; 
+        background-color: #ffffff; 
     
 }
 
-.title {
-    margin-bottom: 2px;
-    
+.row {
+    margin-bottom: 20px; 
 }
 
-.inputBox {
-    margin: 15px 0;
+.header{
+    background-color: rgb(239, 235, 235);
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 
-.inputBox input {
-   
-    padding: 15px 10px;
-    border: 1px solid#ccc;
-    font-size: 10px;
+.footer {
+    background-color: rgb(239, 235, 235);
+    text-align: right;
+    border-radius: 8px;
 }
-
- .inputBox2 {
-    margin: 15px 0;
-    
- }
- .inputBox2 input{
-    padding: 15px 10px;
-    border: 1px solid#ccc;
-    font-size: 10px;
- }
- .inputBox3 {
-    margin: 15px 0;
- }
- .inputBox3 input{
-    padding: 15px 10px;
-    border: 1px solid#ccc;
-    font-size: 10px;
- }
-
- .inputBox span{
-    display: block; 
-    margin-bottom: 5px; 
-    font-size: 14px; 
-}
-.inputBox2 span{
-    display: block; 
-    margin-bottom: 5px; 
-    font-size: 14px; 
-}
-.inputBox3 span{
-    display: block;
-    margin-bottom: 5px;    
-    font-size:
-    }
-
-    .inputBox4 span{
-        display: block;
-        margin-bottom: 5px;    
-        font-size:
-        }
-
-        .inputBox4 input{
-            height: 60px;
-            padding: 15px 10px;
-            border: 1px solid#ccc;
-            font-size: 10px;
-         }
-         .tarj span {
-            display: block;
-            margin-bottom: 5px;    
-            font-size:
-         }
-         
-         .botones {
-            text-align: right;
-            
-         }
-
-         .submit-btn1 {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            background-color: #587059;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 20px;
-            position: relative;
-        }
-        .submit-btn {
-            padding: 10px 20px;
-            border: none;
-            border-radius: 4px;
-            background-color: #4556ee;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-            margin-top: 30px;
-            position: relative;
-            
-            
-        }
-         
-
